@@ -1,0 +1,67 @@
+.control {
+    justify-content: center;
+    align-items: center;
+    display: grid
+  }
+
+  .labelInput{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+  }
+
+  .labelInput button{
+    border-radius: 10px;
+    width: 5%;
+  }
+
+  .wrapper {
+    padding: 1rem;
+    background: rgba(0,0,0,0.5);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    border-radius: 12px;
+    text-align: center;
+    color: white;
+  }
+  
+  .control label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    text-align: center;
+    color:rgb(255, 255, 255)
+  }
+
+  .control button {
+    background: rgba(0,0,0,0.0);
+    border-radius: 3px;
+    text-align: center;
+    width: fit-content;
+    border: 2px solid rgb(255, 255, 255);
+    color:rgb(255, 255, 255)
+    
+  }
+
+  .control button:hover,
+  .control button:active {
+    background-color: #8699ce;
+    border-color: #8699ce;
+  }
+  
+  .control input,
+  .control textarea {
+    background: rgba(0,0,0,0.0);
+    color: white;
+    display: block;
+    width: 100%;
+    font: inherit;
+    padding: 0.2rem;
+    border-radius: 12px;
+    border: 2px solid rgb(255, 255, 255);
+  }
+  
+  .control input:focus,
+  .control textarea:focus {
+    outline: none;
+    border-color:#6e9fe7;
+  }

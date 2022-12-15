@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 90px;
+    width: 100%;
+  }
+
+  .dataContainer {
+    margin-left:25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    width: 50%;
+  }
+
+  .wrapper {
+    padding: 1rem;
+    background: rgba(0,0,0,0.5);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    border-radius: 12px;
+    text-align: center;
+    color: white;
+    display: flex;
+  }
+
+  .dataWrapper {
+    padding: 0.5rem;
+    background: rgba(0,0,0,0.5);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    border-radius: 12px;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  .temperature {
+    margin-left: 100px;
+  }
